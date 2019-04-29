@@ -1,0 +1,19 @@
+//Navigate to Yahoo Home Page
+		driver.navigate().to("https://in.yahoo.com/?p=us");
+		System.out.println("Navigated to Yahoo Page");
+		Thread.sleep(2000);
+		
+		//Navigate back to previous URL
+		driver.navigate().back();
+		System.out.println("Navigate Back to Google Page");
+		Thread.sleep(2000);
+		
+		//Navigate Forward
+		driver.navigate().forward();
+		System.out.println("Again Nagivated to Yahoo Page");
+		Thread.sleep(2000);
+		
+		//Refresh the Page
+		driver.navigate().refresh();
+		System.out.println("Refresh Yahoo Page");
+		Thread.sleep(2000);

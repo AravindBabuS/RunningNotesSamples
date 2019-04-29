@@ -1,0 +1,9 @@
+//Close the Focused Browser 
+		driver.close();
+		
+		//Close All browsers that are opened by WebDriver during execution
+		driver.quit();
+
+	}
+
+}
