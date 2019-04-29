@@ -1,0 +1,36 @@
+//Return Browser Tile
+		String brsTitle=driver.getTitle();
+		System.out.println("Browser Title is: "+brsTitle );
+		
+		//Return Browser URL
+		String brsURL=driver.getCurrentUrl();
+		System.out.println("Browser URL is: "+brsURL);
+		
+		/*
+		//Return Page Source
+		String pgsrc=driver.getPageSource();
+		System.out.println("Page Source is: "+pgsrc);
+		*/
+		
+		//Return Browser Window Handle
+		String brwinhan=driver.getWindowHandle();
+		System.out.println("Browser Window Handle is: "+brwinhan);
+		
+		//Return Browser Tile
+		String brsTitle=driver.getTitle();
+		System.out.println("Browser Title is: "+brsTitle );
+		
+		//Return Browser URL
+		String brsURL=driver.getCurrentUrl();
+		System.out.println("Browser URL is: "+brsURL);
+		
+		/*
+		//Return Page Source
+		String pgsrc=driver.getPageSource();
+		System.out.println("Page Source is: "+pgsrc);
+		*/
+		
+		//Return Browser Window Handle
+		String brwinhan=driver.getWindowHandle();
+		System.out.println("Browser Window Handle is: "+brwinhan);
+		
